@@ -1,0 +1,43 @@
+a:visited{
+   color:blue;
+}
+.container {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  width: 210px;
+  height: 50px;
+  font-size: 12px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  cursor:pointer;
+}
+
+.content{
+    padding: 10px;
+}
+
+.fw-16{
+    font-size: 14px;
+}
+
+.fw-22{
+    font-size: 22px;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}

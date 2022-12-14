@@ -1,0 +1,14 @@
+{% load static %}
+{% for c in connections %}
+<a href="https://start.teamviewer.com/{{ c.code }}" target="_blank" xmlns="http://www.w3.org/1999/html">
+<div class="chip">
+  <img src="{% static '/img/' %}{{ c.device }}.png" alt="Person" width="96" height="96">
+  <div class="content">
+    <span class="fw-16">{{ c.description }}</span>
+  <br>
+  <small>  {{ c.ip }}</small>
+    </div>
+
+</div>
+</a>
+{% endfor %}
