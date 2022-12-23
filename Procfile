@@ -1,1 +1,1 @@
-web: gunicorn connectionsDjangoProject.wsgi --log-file -
+web: connectionsDjangoProject.wsgi.application --log-file -
