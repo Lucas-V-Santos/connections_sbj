@@ -1,1 +1,1 @@
-web: connectionsDjangoProject.wsgi.application
+web: connectionsDjangoProject.wsgi --log-file -
