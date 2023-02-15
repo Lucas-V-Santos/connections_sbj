@@ -5,8 +5,13 @@
   <img src="{% static '/img/' %}{{ c.device }}.png" alt="Person" width="96" height="96">
   <div class="content">
     <span class="fw-16">{{ c.description }}</span>
-  <br>
-  <small>  {{ c.ip }}</small>
+    <br>
+    <small><b>Nome:</b> {{ c.name }}</small>
+    <br>
+    <small><b>IP:</b> {{ c.ip }}</small>
+    <br>
+    <small><b>MAC:</b>{{ c.mac }}</small>
+
     </div>
 
 </div>

@@ -22,5 +22,7 @@ class ConnectionModel(Base):
     device = models.CharField('device', choices=DEVICE_TYPE, max_length=1, null=False, blank=False, default='D')
     description = models.CharField('descrição', max_length=30, blank=False, null=False)
     type = models.CharField('tipo', max_length=25)
+    mac = models.CharField('mac', max_length=25, blank=True, null=True, unique=True)
+    name = models.CharField('nome', max_length=60, blank=True, null=True, unique=True)
 
 
